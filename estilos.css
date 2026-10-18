@@ -1,9 +1,0 @@
-h1{
-   color: red;
-   background-color: yellow;
-   text-decoration: underline;
-   display: inline-block; /* Evita que el fondo ocupe todo el ancho de la pantalla */
-   padding: 8px 16px;     /* Espacio interior para que no quede pegado al bor de */
-  }
-h2{color: red;}
-body{background-color: orange;}
