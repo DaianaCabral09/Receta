@@ -7,3 +7,63 @@ h1{
   }
 h2{color: red;}
 body{background-color: orange;}
+
+.logo {
+  border: none;
+  padding: 0;
+}
+.logo img {width: 90px;
+          height: 90px;
+          border-radius: 50%;
+        }
+.redes-header img, .footer-redes img {
+  width:30px;
+height: 30px;
+background-color: white;
+padding: 3px;
+border-radius: 5px
+}
+.redes-header a, .footer-redes a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 15px;
+}
+
+.titulo-header {
+  margin: 0;
+  text-align: center;
+}
+
+.redes-header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  gap: 15px;
+  margin-top: auto;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
